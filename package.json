@@ -1,0 +1,22 @@
+{
+  "name": "css-frameworks",
+  "version": "1.0.0",
+  "description": "popular framework demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoujingking/css-frameworks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhoujingking/css-frameworks/issues"
+  },
+  "homepage": "https://github.com/zhoujingking/css-frameworks#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -18,5 +18,8 @@
   "homepage": "https://github.com/zhoujingking/css-frameworks#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4"
   }
 }

@@ -5,8 +5,51 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Css Framework Demo</title>
+  <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css" />
 </head>
 <body>
-  <h1>Css Framework Demo</h1>
+  <h1 class="title is-1">Css Framework Demo</h1>
+  <hr>
+  <section class="box">
+    <h2 class="title is-2">button</h2>
+    <button class="button">pure button</button>
+    <h3 class="title is-3">color buttons</h3>
+    <button class="button is-primary">primary button</button>
+    <button class="button is-link">link button</button>
+    <button class="button is-info">info button</button>
+    <button class="button is-success">success button</button>
+    <button class="button is-warning">warning button</button>
+    <button class="button is-danger">danger button</button>
+    <h3 class="title is-3">size buttons</h3>
+    <button class="button">pure button</button>
+    <button class="button is-small">small button</button>
+    <button class="button is-medium">medium button</button>
+    <button class="button is-large">large button</button>
+    <h3 class="title is-3">state buttons</h3>
+    <button class="button">pure button</button>
+    <button class="button is-outlined">outlined button</button>
+    <button class="button is-loading is-link">loading button</button>
+    <button class="button" disabled>disabled button</button>
+  </section>
+  <hr>
+  <section>
+    <h2 class="title is-2">columns - grid system</h2>
+    <h3 class="title is-3">even spaced</h3>
+    <div class="columns">
+      <div class="column has-text-white has-background-primary">1</div>
+      <div class="column has-text-white has-background-link">2</div>
+      <div class="column has-text-white has-background-info">3</div>
+      <div class="column has-text-white has-background-danger">4</div>
+    </div>
+    <h3 class="title is-3">customize spaced</h3>
+    <div class="columns is-multiline">
+      <div class="column is-full has-text-white has-background-primary">Full</div>
+      <div class="column is-three-quarters has-text-white has-background-link">3/4</div>
+      <div class="column is-two-thirds has-text-white has-background-danger">2/3</div>
+      <div class="column is-half has-text-white has-background-info">1/2</div>
+      <div class="column is-one-third has-text-white has-background-grey">1/3</div>
+      <div class="column is-one-quarter has-text-dark has-background-light">1/4</div>      
+    </div>
+  </section>
 </body>
 </html>
